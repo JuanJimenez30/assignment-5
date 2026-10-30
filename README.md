@@ -3,7 +3,7 @@
 
 ## Project Description
 
-This project is a React single-page application that lets users search for television shows using the TVmaze API. Users can browse show cards, view summaries and genres, see ratings and premiere dates, preview cast members, and open a detail page for a selected show.
+The project is a single-page React app, which lets users search for their favorite or any tv shows. The application uses the TVmaze API. When searching a user can browse the show cards, which have their own summarize, rating, dates, and cast members, and users can also view the shows detail page which is a more detailed page of the show.
 
 ## Technologies Used
 
@@ -38,13 +38,13 @@ This project is a React single-page application that lets users search for telev
 
 ## Reflection
 
-Building this project helped me understand how React can organize a web application into smaller components. I learned how props allow components to share information and how state keeps track of search results, loading messages, errors, and cast members. I also learned how `useEffect` can fetch information from an API when a component loads. Using React Router helped me understand how to move between pages without reloading the entire website.
+When building this project, it helped me experiment and understand how React organize a application into manageable components, and gained a good understanding of how props can allow different components to share information with one another, and how states keep track of search results, error messages, loading messages, and cast members. I also learned how to effectively use `useEffect`, with using it to fetch information from the API when components load. React router also was useful into moving between my gallery and show details page without reloading the whole website.
 
-One challenge was connecting the TVmaze API to the different components while handling missing information and failed requests. I addressed this by checking responses, displaying fallback messages, and testing invalid show IDs. I also learned why lists need stable keys and why controlled inputs are useful for search forms. Styling the cards with CSS helped me make the gallery responsive. Overall, this project gave me more practice connecting React concepts to a working application and helped me understand how the different parts of a single-page application work together.
+One of my biggest challenge was the handling of missing components when the TVmaze didn't have it available. I combatted this challenge by having checks for responses, and fallback messages when an error occurs. I also tested for invalid ID. I was also having a hard time understanding why lists need good stable keys, and why its suggested to have controlled inputs in search forms. This project boosted my knowledge and experience in using React giving me practice on how I can organize a application.
 
 ## AI Usage Disclosure
 
-I used ChatGPT for step-by-step explanations, implementation guidance, debugging support, and help understanding React concepts. I reviewed and tested the code in my application. I am responsible for understanding the final implementation and verifying that it meets the assignment requirements.
+I used ChatGPT as a additional resource in the process of development. It helped me understand more aspects of React components and provided guidance in how to handle errors, and check responses.
 
 ## API Attribution
 
